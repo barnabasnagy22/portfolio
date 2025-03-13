@@ -1,0 +1,45 @@
+/* Átlátszó kártyák fehér körvonallal */
+.transparent-card {
+    background-color: rgba(0, 0, 0, 0); /* Teljesen átlátszó */
+    border: 2px solid white; /* Vékony fehér körvonal */
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Enyhe üveghatás */
+}
+
+/* Input mezők átlátszó háttérrel és fehér szöveggel */
+.transparent-input {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.transparent-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Listaelemek átlátszó háttere */
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Gombok színezése */
+.btn-primary {
+    background-color: #64ffda;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #52e6c5;
+}
+
+.btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e63e3e;
+}

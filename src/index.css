@@ -1,0 +1,129 @@
+body {
+  background-color: #0a192f; 
+  color: #ccd6f6; 
+  font-family: 'Poppins', sans-serif; 
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(10, 25, 47, 0.9); 
+  padding: 15px 40px;
+  backdrop-filter: blur(10px); 
+  z-index: 1000;
+}
+
+#nava {
+  transition: all 0.3s ease-in-out;
+}
+
+#nava:hover {
+  transform: scale(1.05);
+}
+
+.fixed-img {
+  height: 250px; 
+  object-fit: cover; 
+}
+
+#vproject{
+  background-color: #64ffda;
+}
+
+#vproject:hover {
+  background-color: #52e6c5;
+}
+
+.col-md-8 {
+  transition: transform 0.3s ease-in-out;
+}
+.col-md-8:hover{
+  transform: scale(1.05);
+}
+
+
+.transparent-card {
+  background-color: rgba(0, 0, 0, 0); 
+  border: 1px solid white; 
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px; 
+  object-fit: contain; 
+  border-radius: 10px 10px 0 0; 
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 5px; 
+}
+
+.col-md-6{
+  transition: transform 0.3s ease-in-out;
+}
+.col-md-6:hover{
+  transform: scale(1.05);
+}
+
+#asd{
+  transition: transform 0.3s ease-in-out;
+}
+#asd:hover{
+  transform: scale(1.5);
+}
+
+.transparent-input {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.transparent-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary {
+  background-color: #64ffda;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #52e6c5;
+}
+
+
+.form-control {
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  background-color: #3a3a3a;
+  color: white;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.cursor-effect {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(100, 255, 218, 0.4) 0%, rgba(100, 255, 218, 0) 80%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+-url shortener
+-weather app with api
+-spillet https://fm-tip-calculator-pi.vercel.app/
+-login and register page
+-százalek kalkulátor
+
+
+
+kész:
+-advice https://imaginative-paletas-b1d609.netlify.app/
