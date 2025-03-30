@@ -7,10 +7,10 @@ function Projects() {
                 
                 <div className="col-md-6">
                     <div className="transparent-card shadow-lg h-100">
-                        <img src="/images/bteam.PNG" className="card-img-top" alt="Project 1"></img>
+                        <img src="/images/aiimage.png" className="card-img-top" alt="Project 1"></img>
                         <div className="card-body d-flex flex-column">
-                            <p className="card-text">Built in Wordpress.</p>
-                            <a href="https://www.bteamhungary.hu/" target="_blank" className="mt-auto btn btn-primary">View Project</a>
+                            <p className="card-text">AI Image generator built in React</p>
+                            <a href="https://github.com/barnabasnagy22/aiimagegen" target="_blank" className="mt-auto btn btn-primary">View Project</a>
                         </div>
                     </div>
                 </div>
