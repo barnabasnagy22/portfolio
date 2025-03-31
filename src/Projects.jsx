@@ -79,7 +79,7 @@ function Projects() {
 
                 <div className="col-md-6">
                     <div className="transparent-card shadow-lg h-100">
-                        <img src="/images/cryptop.png" className="card-img-top" alt="Project 3"></img>
+                        <img src="/images/crypto.png" className="card-img-top" alt="Project 3"></img>
                         <div className="card-body d-flex flex-column">
                             <p className="card-text">Crypto price tracker built in React</p>
                             <a href="https://github.com/barnabasnagy22/cryptopricetracker" target="_blank" className="mt-auto btn btn-primary">View Project</a>
